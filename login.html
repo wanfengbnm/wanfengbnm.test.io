@@ -1,0 +1,21 @@
+<!--login.html-->
+ 
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>登录页面</title>
+</head>
+ 
+<body>
+	<!--建一个表单，模式为POST action连接到login.php-->
+	<form action="login.php" method="post">
+		<!--输入用户名，后面的required用于非空校验，在该框为空的时候不能提交此表单-->
+		用户名：<input name="username" type="text" required><br>
+		<!--输入密码-->
+		密码：<input name="password" type="password" required><br> 
+		<!--提交按钮-->
+		<button type="submit">登录</button>
+	</form>
+</body>
+</html>
